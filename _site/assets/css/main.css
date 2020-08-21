@@ -123,7 +123,12 @@ audio:not([controls]) {
 }
 
 img {
-	border-style: none
+	border-style: none;
+	display: block;
+	max-width: 100%;
+	margin: 0 0 1rem;
+	border-radius: 5px;
+	box-shadow: 5px 5px 20px #000000;
 }
 
 svg:not(:root) {
@@ -5057,12 +5062,4 @@ body {
 	text-decoration: none;
 	margin: 0;
 	color: #fff
-}
-
-img {
-	display: block;
-	max-width: 100%;
-	margin: 0 0 1rem;
-	border-radius: 5px;
-	box-shadow: 5px 5px 20px #000000;
 }
