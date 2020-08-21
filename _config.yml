@@ -1,7 +1,7 @@
 # Site settings
 title: Benjamin Beringue
 description: Personal page
-baseurl: "/index" # the subpath of your site, e.g. /blog
+#baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://beringueb.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
@@ -14,3 +14,5 @@ github_username:  beringueb
 # gplus_username:  lorem_ipsum
 
 exclude: ['package.json', 'src' , 'node_modules']
+
+
