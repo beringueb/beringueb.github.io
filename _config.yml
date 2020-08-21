@@ -1,8 +1,8 @@
 # Site settings
 title: Benjamin Beringue
 description: Personal page
-#baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://beringueb.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+#baseurl: "" # the subpath of your site
+url: "https://beringueb.github.io" # the base hostname & protocol for your site
 
 # User settings
 username: Benjamin Beringue
