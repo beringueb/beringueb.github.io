@@ -4840,6 +4840,30 @@ sup {
 	}
 }
 
+.banner {
+    font-family: 'Montserrat', sans-serif;
+    height: 4vh
+    text-align:center;
+    background: #1a222c;
+    margin: 0% auto;
+    padding: 20px 20px 20px 20px;
+}
+
+
+
+.banner a {
+    fontsize: 14px;
+    color: #F0FFFF;
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.banner a:hover {
+    text-decoration: underline;
+}
+
+
 #particles-js {
 	background: #1a222c;
 	display: flex;
@@ -4853,6 +4877,7 @@ sup {
 #particles-js.particles-js-canvas-el {
 	height: 100vh!important
 }
+
 
 .header {
 	font-family: 'Montserrat', sans-serif;
@@ -4991,6 +5016,7 @@ sup {
 	color: #4b5664
 }
 
+
 #about {
 	font-size: 120%;
 	width: 90%;
@@ -5021,6 +5047,17 @@ body {
 	font-weight: 400
 }
 
+.tech a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.tech a:hover {
+    text-decoration: underline;
+}
+
+
+
 .user {
 	text-align: center;
 	font-size: 60px;
@@ -5041,6 +5078,84 @@ body {
 	}
 }
 
+#publications {
+	text-align: left;
+	display: block;
+	width: 100%;
+	padding: 0px;
+}
+
+#publications h1{
+    font-size: 3em;
+    line-height: 0px;
+
+}
+
+#publications h2{
+    color: #4169E1;
+    font-size: 1.25em;
+}
+
+.article {
+    padding: 0px;
+    line-height: 0px;
+}
+
+.article h3{
+    color: #000000;
+
+}
+
+.article h4{
+    color: #778899;
+
+}
+
+.article a{
+    color: #FF6347;
+    text-decoration: none;
+}
+
+.article a:hover{
+    color: #FF6347;
+    text-decoration: underline;
+}
+
+
+#research {
+	text-align: left;
+	display: block;
+	width: 100%;
+	padding: 0px;
+}
+
+#research h1{
+    font-size: 3em;
+    line-height: 0px;
+}
+
+.project {
+    padding: 0px;
+}
+
+.project p{
+    line-height: 8px;
+
+}
+
+.project a{
+    color: #000000;
+    text-decoration:none;
+}
+
+.project a:active,
+.project a:hover {
+     color: #000000;
+     text-decoration: underline;
+
+}
+
+
 .user-details {
 	text-align: center;
 	margin: 5px auto
@@ -5051,7 +5166,8 @@ body {
 	padding: 10px 0;
 	margin-top: 100px;
 	text-align: center;
-	color: #fff
+	color: #fff;
+	font-size: 0.75em;
 }
 
 .footer .love {
