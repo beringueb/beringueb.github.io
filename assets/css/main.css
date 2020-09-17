@@ -5136,6 +5136,7 @@ body {
 
 .project {
     padding: 0px;
+    text-align: justify;
 }
 
 .project p{
