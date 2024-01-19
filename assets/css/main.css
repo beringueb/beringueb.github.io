@@ -4842,9 +4842,9 @@ sup {
 
 .banner {
     font-family: 'Montserrat', sans-serif;
-    height: 4vh
-    text-align:center;
-    background: #1a222c;
+    height: 4vh;
+    text-align: center;
+    background: #15d050;
     margin: 0% auto;
     padding: 20px 20px 20px 20px;
 }
@@ -4865,7 +4865,7 @@ sup {
 
 
 #particles-js {
-	background: #a42c2c;
+	background: #15d050;
 	display: flex;
 	vertical-align: bottom;
 	min-height: 100vh;
@@ -5168,7 +5168,7 @@ body {
 }
 
 .footer {
-	background: #1a222c;
+	background: #fff;
 	padding: 10px 0;
 	margin-top: 100px;
 	text-align: center;
