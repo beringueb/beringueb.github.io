@@ -125,9 +125,11 @@ audio:not([controls]) {
 img {
 	border-style: none;
 	display: block;
+	border: 2px solid black; /* Black border around the image */
+	box-sizing: border-box;
 	max-width: 100%;
 	margin: 0 0 1rem;
-	border-radius: 5px;
+	border-radius: 0px;
 	box-shadow: 5px 5px 20px #000000;
 }
 
@@ -4844,7 +4846,8 @@ sup {
     font-family: 'Montserrat', sans-serif;
     height: 4vh;
     text-align: center;
-    background: #1a222c;
+    /* background: #1a222c; */
+	background: #000000;
     margin: 0% auto;
     padding: 20px 20px 20px 20px;
 }
@@ -4865,7 +4868,7 @@ sup {
 
 
 #particles-js {
-	background: #1a222c;
+	background: #000000;
 	display: flex;
 	vertical-align: bottom;
 	min-height: 100vh;
@@ -4969,7 +4972,8 @@ sup {
 
 .header-icons .icon:active,
 .header-icons .icon:hover {
-	color: #1a222c;
+	/* color: #1a222c; */
+	color: #000000;
 	background: #fff
 }
 
@@ -5134,19 +5138,65 @@ body {
     line-height: 0px;
 }
 
-.project {
+/* .project {
+	display: grid;
     padding: 0px;
     text-align: justify;
+} */
+
+.project_right {
+	display: grid;
+	grid-template-columns: 1fr 1fr; /* Two columns of equal width */
+	align-items: center; /* Align items vertically */
+	gap: 40px; /* Adjust as needed */
+  }
+
+.project_right .img{
+	max-width: 100%; /* Ensure image doesn't exceed container width */
+	max-height: 100%;
+}
+
+.project_right p{
+    line-height: 8px;
+}
+
+.project_right a{
+    color: #000000;
+    text-decoration:none;
+}
+.project_righ h3{
+    padding-top: 0.5px;
+}
+
+.project_right a:active,
+.project_right a:hover {
+     color: #000000;
+     text-decoration: underline;
+
+}
+
+.project {
+	display: grid;
+	grid-template-columns: 2.5fr 1fr; /* Two columns of equal width */
+	align-items: center; /* Align items vertically */
+	gap: 40px; /* Adjust as needed */
+  }
+
+.project .img{
+	max-width: 100%; /* Ensure image doesn't exceed container width */
+	max-height: 100%;
 }
 
 .project p{
     line-height: 8px;
-
 }
 
 .project a{
     color: #000000;
     text-decoration:none;
+}
+.project h3{
+    padding-top: 0.5px;
 }
 
 .project a:active,
@@ -5168,7 +5218,8 @@ body {
 }
 
 .footer {
-	background: #1a222c;
+	/* background: #1a222c; */
+	background: #000000;
 	padding: 10px 0;
 	margin-top: 100px;
 	text-align: center;
