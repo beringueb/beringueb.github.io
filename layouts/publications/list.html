@@ -4,12 +4,10 @@
   {{ .Content }}
   {{ range hugo.Data.publications.sections }}
     <h2>{{ .title }}</h2>
-    {{ range .papers }}
-    <div class="article">
-      <h3>{{ .title }}</h3>
-      {{ .authors | replaceRE `(Beringue)` "<b>$1</b>" | safeHTML }}. {{ .year }}.{{ with .journal }} <i>{{ . }}</i>.{{ end }}<br>
-      {{ with .url }}<h4>[<a href="{{ . }}" target="_blank" rel="noopener">Read the full article</a>]</h4>{{ end }}
-    </div>
+    {{ range .papers }}{{ partial "paper.html" . }}{{ end }}
+    {{ range .groups }}
+      <h3 class="pub-group">{{ .title }}</h3>
+      {{ range .papers }}{{ partial "paper.html" . }}{{ end }}
     {{ end }}
     <br>
   {{ end }}

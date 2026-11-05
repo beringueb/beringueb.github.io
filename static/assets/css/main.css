@@ -5099,6 +5099,13 @@ body {
     font-size: 1.25em;
 }
 
+#publications h3.pub-group{
+    color: #4169E1;
+    font-size: 1.05em;
+    font-style: italic;
+    margin: 1.5em 0 0.5em;
+}
+
 .article {
     padding: 0px;
     line-height: 0px;

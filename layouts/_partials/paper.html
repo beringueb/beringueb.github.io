@@ -1,0 +1,5 @@
+<div class="article">
+  <h3>{{ .title }}</h3>
+  {{ .authors | replaceRE `(Beringue)` "<b>$1</b>" | safeHTML }}. {{ .year }}.{{ with .journal }} <i>{{ . }}</i>.{{ end }}<br>
+  {{ with .url }}<h4>[<a href="{{ . }}" target="_blank" rel="noopener">Read the full article</a>]</h4>{{ end }}
+</div>

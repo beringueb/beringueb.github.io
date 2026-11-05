@@ -1,50 +1,121 @@
-# Add a paper by copying one block below.
-# "Beringue" in the author list is automatically shown in bold.
+# Structure follows the "Publications" section of the CV.
+# A section has either a list of `papers`, or `groups` (sub-headings), each with its own `papers`.
+# To add a paper, copy one block. "Beringue" in the author list is shown in bold automatically.
 sections:
-  - title: "First authored papers:"
+  - title: "Major contribution papers"
     papers:
-      - title: "Cosmology with Rayleigh scattering of the Cosmic Microwave Background."
+      - title: "The Atacama Cosmology Telescope: DR6 power spectrum foreground model and validation."
+        authors: "Beringue, Surrao et al."
+        year: 2025
+        journal: "JCAP10(2025)082"
+        url: "https://arxiv.org/abs/2506.06274"
+      - title: "The Atacama Cosmology Telescope: DR6 Power Spectra, Likelihoods and ΛCDM Parameters."
+        authors: "Louis et al."
+        year: 2025
+        journal: "JCAP11(2025)062"
+        url: "https://arxiv.org/abs/2503.14452"
+      - title: "Cosmology with Rayleigh Scattering of the CMB."
         authors: "Beringue, Meerburg, Meyers & Battaglia"
-        year: 2020
+        year: 2021
         journal: "JCAP01(2021)060"
         url: "https://arxiv.org/abs/2008.11688"
-
-  - title: "Second authored papers:"
-    papers:
-      - title: "Estimating the Impact of foregrounds on the Future Detection of Rayleigh scattering."
+      - title: "Estimating the impact of foregrounds on the future detection of Rayleigh scattering."
         authors: "Zhu, Beringue, Choi, Battaglia, Meerburg & Meyers"
-        year: 2022
+        year: 2023
         journal: "JCAP09(2022)048"
         url: "https://arxiv.org/abs/2205.04496"
       - title: "The primordial information content of Rayleigh Anisotropies."
         authors: "Coulton, Beringue & Meerburg"
-        year: 2020
-        journal: "PRD 103, 043501 (2021)"
+        year: 2021
+        journal: "PRD 103, 043501"
         url: "https://arxiv.org/abs/2010.10481"
-
-  - title: "Co-authored papers:"
-    papers:
+      - title: "Exploring the discrepancy between Planck PR3 and ACT DR4."
+        authors: "Hazra, Beringue et al."
+        year: 2024
+        journal: "JCAP12(2024)038"
+        url: "https://arxiv.org/abs/2406.06296"
       - title: "CCAT-prime Collaboration: Science Goals and Forecasts with Prime-Cam on the Fred Young Submillimeter Telescope."
-        authors: "CCAT-prime collaboration"
-        year: 2022
-        journal: "preprints"
+        authors: "CCAT collaboration"
+        year: 2021
+        journal: "ApJS 264 7"
         url: "https://arxiv.org/abs/2107.10364"
-      - title: "The Simons Observatory: Science goals and forecasts."
-        authors: "Simons Observatory Collaboration"
-        year: 2019
-        journal: "JCAP02(2019)056"
-        url: "https://arxiv.org/abs/1808.07445"
+      - title: "The Simons Observatory: impact of bandpass, polarization angle and calibration uncertainties on small-scale power spectrum analysis."
+        authors: "Giardiello et al."
+        year: 2024
+        journal: "JCAP09(2024)008"
+        url: "https://arxiv.org/abs/2403.05242"
+
+  - title: "Collaboration papers"
+    groups:
+      - title: "Atacama Cosmology Telescope"
+        papers:
+          - title: "The Atacama Cosmology Telescope: DR6 Gravitational Lensing Map and Cosmological Parameters."
+            authors: "Madhavacheril et al."
+            year: 2023
+            journal: "ApJ 962 113"
+            url: "https://arxiv.org/abs/2304.05203"
+          - title: "The Atacama Cosmology Telescope: A Measurement of the DR6 CMB Lensing Power Spectrum and its implications for Structure Growth."
+            authors: "Qu et al."
+            year: 2023
+            journal: "ApJ 962 112"
+            url: "https://arxiv.org/abs/2304.05202"
+          - title: "The Atacama Cosmology Telescope: High-resolution component-separated maps across one-third of the sky."
+            authors: "Coulton et al."
+            year: 2023
+            journal: "PRD 109, 063530"
+            url: "https://arxiv.org/abs/2307.01258"
+          - title: "The Atacama Cosmology Telescope: DR6 Maps."
+            authors: "Naess et al."
+            year: 2025
+            journal: "JCAP11(2025)061"
+            url: "https://arxiv.org/abs/2503.14451"
+          - title: "The Atacama Cosmology Telescope: DR6 Constraints on Extended Cosmological Models."
+            authors: "Calabrese et al."
+            year: 2025
+            journal: "JCAP11(2025)063"
+            url: "https://arxiv.org/abs/2503.14454"
+      - title: "Simons Observatory"
+        papers:
+          - title: "The Simons Observatory: science goals and forecasts."
+            authors: "SO Collaboration"
+            year: 2019
+            journal: "JCAP02(2019)056"
+            url: "https://arxiv.org/abs/1808.07445"
+          - title: "The Simons Observatory: science goals and forecasts for the Enhanced Large Aperture Telescope."
+            authors: "SO Collaboration"
+            year: 2025
+            journal: "JCAP08(2025)034"
+            url: "https://arxiv.org/abs/2503.00636"
+
+  - title: "Other publications"
+    papers:
+      - title: "The Simons Observatory: component separation pipelines for B-modes."
+        authors: "Wolz et al."
+        year: 2024
+        journal: "Rencontres de Moriond proceedings"
+        url: "https://arxiv.org/abs/2407.06891"
       - title: "CCAT-prime: Science with an Ultra-widefield Submillimeter Observatory at Cerro Chajnantor."
-        authors: "Stacey et al."
+        authors: "CCAT Collaboration"
         year: 2018
+        journal: "SPIE proceedings"
         url: "https://arxiv.org/abs/1807.04354"
       - title: "Science from an Ultra-Deep, High-Resolution Millimeter-Wave Survey."
         authors: "Sehgal et al."
         year: 2019
         journal: "Astro2020 white paper"
         url: "https://arxiv.org/abs/1903.03263"
+      - title: "The Simons Observatory: Astro2020 Decadal Project Whitepaper."
+        authors: "SO Collaboration"
+        year: 2019
+        journal: "Astro2020 white paper"
+        url: "https://arxiv.org/abs/1907.08284"
       - title: "The CCAT-Prime Submillimeter Observatory."
-        authors: "CCAT-prime collaboration"
+        authors: "CCAT Collaboration"
         year: 2019
         journal: "Astro2020 white paper"
         url: "https://arxiv.org/abs/1909.02587"
+      - title: "Snowmass2021 Cosmic Frontier: Cosmic Microwave Background Measurements White Paper."
+        authors: "Chang et al."
+        year: 2022
+        journal: "Contribution to Snowmass21 report"
+        url: "https://arxiv.org/abs/2203.07638"
