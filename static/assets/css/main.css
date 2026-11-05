@@ -5271,3 +5271,49 @@ figure.image figcaption {
 	text-align: center;
 	color: #666;
 }
+
+/* Misc section and train statistics page */
+.misc-item h3 { margin-bottom: 0.2em; }
+.trains-period { color: #666; margin-top: -0.5em; }
+.trains .muted { color: #777; }
+.stat-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+	gap: 12px;
+	margin: 1.5em 0 2em;
+}
+.stat {
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 12px 14px;
+	background: #fff;
+}
+.stat-value { display: block; font-size: 1.3em; font-weight: 600; color: #4169E1; white-space: nowrap; }
+.stat-label { display: block; font-size: 0.85em; color: #555; }
+.trains-table { width: 100%; border-collapse: collapse; margin: 0.5em 0 1.5em; font-size: 0.95em; }
+.trains-table th, .trains-table td { text-align: left; padding: 6px 8px; border-bottom: 1px solid #e5e5e5; vertical-align: middle; }
+.trains-table thead th { font-weight: 600; border-bottom: 2px solid #ccc; }
+.trains-table th[scope="row"] { font-weight: 600; white-space: nowrap; }
+.bar-col { width: 50%; }
+.bar-wrap { display: flex; align-items: center; gap: 8px; }
+.bar-track { flex: 0 0 60%; }
+.bar {
+	display: block;
+	height: 0.8em;
+	background: #4169E1;
+	opacity: 0.75;
+	border-radius: 2px;
+}
+.bar-num { font-size: 0.85em; color: #555; white-space: nowrap; }
+.rank-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 8px 40px;
+}
+.rank h3 { margin-bottom: 0.3em; }
+.rank ol { margin: 0; padding-left: 1.4em; }
+.rank li { margin: 0.35em 0; }
+.rank-name { display: block; font-size: 0.95em; }
+.rank-unit { font-size: 0.8em; margin-top: 0.3em; }
+.trains-notes { font-size: 0.85em; margin-top: 2em; }
+.trains-table td strong, .trains-table td:last-child { white-space: nowrap; }

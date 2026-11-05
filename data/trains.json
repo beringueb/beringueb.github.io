@@ -1,0 +1,454 @@
+{
+  "period": {
+    "first": "Jan 2023",
+    "last": "Oct 2026"
+  },
+  "totals": {
+    "trips": 255,
+    "km": 90357,
+    "hours": 606,
+    "avg_speed": 148,
+    "earth_laps": 2.25,
+    "moon_share": 24,
+    "stations": 116,
+    "operators": 18,
+    "units": 210,
+    "repeat_units": 24,
+    "delayed_trips": 64,
+    "delayed_share": 25,
+    "delay_hours": 23.4,
+    "untimed_trips": 6
+  },
+  "by_year": [
+    {
+      "year": 2023,
+      "trips": 59,
+      "km": 13427,
+      "hours": 95
+    },
+    {
+      "year": 2024,
+      "trips": 82,
+      "km": 29709,
+      "hours": 206
+    },
+    {
+      "year": 2025,
+      "trips": 90,
+      "km": 34922,
+      "hours": 236
+    },
+    {
+      "year": 2026,
+      "trips": 24,
+      "km": 12299,
+      "hours": 69
+    }
+  ],
+  "operators": [
+    {
+      "name": "SNCF",
+      "trips": 164,
+      "km": 68171
+    },
+    {
+      "name": "GWR",
+      "trips": 23,
+      "km": 3627
+    },
+    {
+      "name": "DB",
+      "trips": 16,
+      "km": 2737
+    },
+    {
+      "name": "Eurostar",
+      "trips": 14,
+      "km": 6860
+    },
+    {
+      "name": "Transport for Wales",
+      "trips": 5,
+      "km": 475
+    },
+    {
+      "name": "ÖBB",
+      "trips": 5,
+      "km": 559
+    },
+    {
+      "name": "Southeastern",
+      "trips": 5,
+      "km": 512
+    },
+    {
+      "name": "Renfe",
+      "trips": 5,
+      "km": 3692
+    },
+    {
+      "name": "SBB CFF",
+      "trips": 3,
+      "km": 346
+    },
+    {
+      "name": "Avanti West Coast",
+      "trips": 3,
+      "km": 657
+    }
+  ],
+  "types": [
+    {
+      "name": "EuroDuplex",
+      "trips": 46,
+      "km": 23510
+    },
+    {
+      "name": "Duplex",
+      "trips": 39,
+      "km": 23245
+    },
+    {
+      "name": "Class 800",
+      "trips": 15,
+      "km": 2613
+    },
+    {
+      "name": "Locomotive-hauled",
+      "trips": 15,
+      "km": 7782
+    },
+    {
+      "name": "ZGC",
+      "trips": 14,
+      "km": 757
+    },
+    {
+      "name": "e320",
+      "trips": 10,
+      "km": 4900
+    },
+    {
+      "name": "Dasye",
+      "trips": 10,
+      "km": 6042
+    },
+    {
+      "name": "Réseau",
+      "trips": 8,
+      "km": 2762
+    },
+    {
+      "name": "Regio 2N",
+      "trips": 7,
+      "km": 605
+    },
+    {
+      "name": "TER 2N NG",
+      "trips": 5,
+      "km": 395
+    }
+  ],
+  "stations": [
+    {
+      "name": "Paris Gare de Lyon",
+      "trips": 59
+    },
+    {
+      "name": "Paris Est",
+      "trips": 32
+    },
+    {
+      "name": "Marseille St-Charles",
+      "trips": 25
+    },
+    {
+      "name": "Cardiff",
+      "trips": 22
+    },
+    {
+      "name": "Paris Nord",
+      "trips": 18
+    },
+    {
+      "name": "London St Pancras",
+      "trips": 17
+    },
+    {
+      "name": "Thionville",
+      "trips": 17
+    },
+    {
+      "name": "Metz Ville",
+      "trips": 16
+    },
+    {
+      "name": "London Paddington",
+      "trips": 13
+    },
+    {
+      "name": "Karlsruhe Hbf",
+      "trips": 12
+    }
+  ],
+  "routes": [
+    {
+      "name": "Marseille St-Charles ↔ Paris Gare de Lyon",
+      "trips": 18
+    },
+    {
+      "name": "London St Pancras ↔ Paris Nord",
+      "trips": 14
+    },
+    {
+      "name": "Paris Est ↔ Thionville",
+      "trips": 13
+    },
+    {
+      "name": "Cardiff ↔ London Paddington",
+      "trips": 11
+    },
+    {
+      "name": "Grenoble ↔ Paris Gare de Lyon",
+      "trips": 9
+    }
+  ],
+  "repeat_units": [
+    {
+      "unit": "4001/4002",
+      "type": "e320",
+      "operator": "Eurostar",
+      "times": 3,
+      "first": "Apr 2023",
+      "last": "Jul 2023"
+    },
+    {
+      "unit": "281",
+      "type": "Duplex",
+      "operator": "SNCF",
+      "times": 3,
+      "first": "Apr 2025",
+      "last": "Oct 2026"
+    },
+    {
+      "unit": "282",
+      "type": "Duplex",
+      "operator": "SNCF",
+      "times": 3,
+      "first": "May 2025",
+      "last": "Nov 2025"
+    },
+    {
+      "unit": "4713",
+      "type": "EuroDuplex",
+      "operator": "SNCF",
+      "times": 3,
+      "first": "Jun 2024",
+      "last": "Nov 2025"
+    },
+    {
+      "unit": "4714",
+      "type": "EuroDuplex",
+      "operator": "SNCF",
+      "times": 3,
+      "first": "Mar 2024",
+      "last": "Mar 2025"
+    },
+    {
+      "unit": "4715",
+      "type": "EuroDuplex",
+      "operator": "SNCF",
+      "times": 3,
+      "first": "Sep 2024",
+      "last": "Nov 2025"
+    },
+    {
+      "unit": "4007/4008",
+      "type": "e320",
+      "operator": "Eurostar",
+      "times": 2,
+      "first": "Oct 2023",
+      "last": "Apr 2024"
+    },
+    {
+      "unit": "800031",
+      "type": "Class 800",
+      "operator": "GWR",
+      "times": 2,
+      "first": "Aug 2023",
+      "last": "Apr 2024"
+    },
+    {
+      "unit": "232",
+      "type": "Duplex",
+      "operator": "SNCF",
+      "times": 2,
+      "first": "Aug 2024",
+      "last": "Oct 2025"
+    },
+    {
+      "unit": "257",
+      "type": "Duplex",
+      "operator": "SNCF",
+      "times": 2,
+      "first": "Jul 2024",
+      "last": "Nov 2024"
+    },
+    {
+      "unit": "259",
+      "type": "Duplex",
+      "operator": "SNCF",
+      "times": 2,
+      "first": "Aug 2025",
+      "last": "Oct 2025"
+    },
+    {
+      "unit": "278",
+      "type": "Duplex",
+      "operator": "SNCF",
+      "times": 2,
+      "first": "Apr 2025",
+      "last": "Jun 2025"
+    },
+    {
+      "unit": "4701",
+      "type": "EuroDuplex",
+      "operator": "SNCF",
+      "times": 2,
+      "first": "Jan 2024",
+      "last": "Jun 2025"
+    },
+    {
+      "unit": "4706",
+      "type": "EuroDuplex",
+      "operator": "SNCF",
+      "times": 2,
+      "first": "Jul 2023",
+      "last": "Nov 2024"
+    },
+    {
+      "unit": "4711",
+      "type": "EuroDuplex",
+      "operator": "SNCF",
+      "times": 2,
+      "first": "Aug 2025",
+      "last": "Dec 2025"
+    },
+    {
+      "unit": "4712",
+      "type": "EuroDuplex",
+      "operator": "SNCF",
+      "times": 2,
+      "first": "Mar 2024",
+      "last": "Jun 2024"
+    },
+    {
+      "unit": "550",
+      "type": "Réseau",
+      "operator": "SNCF",
+      "times": 2,
+      "first": "May 2024",
+      "last": "May 2024"
+    },
+    {
+      "unit": "715",
+      "type": "Dasye",
+      "operator": "SNCF",
+      "times": 2,
+      "first": "May 2025",
+      "last": "Nov 2025"
+    },
+    {
+      "unit": "73612",
+      "type": "A TER",
+      "operator": "SNCF",
+      "times": 2,
+      "first": "Aug 2026",
+      "last": "Aug 2026"
+    },
+    {
+      "unit": "73912",
+      "type": "A TER",
+      "operator": "SNCF",
+      "times": 2,
+      "first": "Nov 2024",
+      "last": "Nov 2024"
+    },
+    {
+      "unit": "825",
+      "type": "EuroDuplex",
+      "operator": "SNCF",
+      "times": 2,
+      "first": "Nov 2024",
+      "last": "Dec 2024"
+    },
+    {
+      "unit": "860",
+      "type": "EuroDuplex",
+      "operator": "SNCF",
+      "times": 2,
+      "first": "Apr 2025",
+      "last": "Jul 2026"
+    },
+    {
+      "unit": "BB 7268",
+      "type": "Locomotive-hauled",
+      "operator": "SNCF",
+      "times": 2,
+      "first": "Aug 2024",
+      "last": "Oct 2025"
+    },
+    {
+      "unit": "196104",
+      "type": "Class 196",
+      "operator": "West Midlands Railway",
+      "times": 2,
+      "first": "Oct 2025",
+      "last": "Oct 2025"
+    }
+  ],
+  "records": [
+    {
+      "label": "Longest trip",
+      "route": "Madrid Atocha → Marseille St-Charles",
+      "value": "1,148 km",
+      "when": "Nov 2024",
+      "operator": "Renfe AVE"
+    },
+    {
+      "label": "Longest time on board",
+      "route": "Paris Austerlitz → Aurillac",
+      "value": "12h53",
+      "when": "Oct 2025",
+      "operator": "SNCF Intercités de nuit"
+    },
+    {
+      "label": "Fastest trip (average)",
+      "route": "Barcelona Sants → Madrid Atocha",
+      "value": "248 km/h",
+      "when": "Nov 2024",
+      "operator": "Renfe AVE"
+    },
+    {
+      "label": "Shortest trip",
+      "route": "Hohenems → Götzis",
+      "value": "4 km",
+      "when": "Jul 2023",
+      "operator": "ÖBB"
+    },
+    {
+      "label": "Biggest delay",
+      "route": "Collioure → Leucate La Franqui",
+      "value": "~1h20",
+      "when": "Oct 2024",
+      "operator": "SNCF TER"
+    },
+    {
+      "label": "Busiest month",
+      "route": "",
+      "value": "6,402 km",
+      "when": "Dec 2025",
+      "operator": ""
+    }
+  ]
+}

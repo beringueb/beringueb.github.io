@@ -1,0 +1,67 @@
+{{ define "main" }}
+{{- /* Stats come from data/trains.json, written by scripts/trains_import.py */ -}}
+{{ $d := hugo.Data.trains }}
+{{ $t := $d.totals }}
+<div id="research" class="trains">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  <p class="trains-period">{{ $d.period.first }} – {{ $d.period.last }}</p>
+
+  <div class="stat-grid">
+    <div class="stat"><span class="stat-value">{{ lang.FormatNumber 0 $t.km }} km</span><span class="stat-label">travelled by train</span></div>
+    <div class="stat"><span class="stat-value">{{ $t.earth_laps }}×</span><span class="stat-label">around the Earth</span></div>
+    <div class="stat"><span class="stat-value">{{ $t.trips }}</span><span class="stat-label">trips</span></div>
+    <div class="stat"><span class="stat-value">{{ $t.hours }} h</span><span class="stat-label">on board</span></div>
+    <div class="stat"><span class="stat-value">{{ $t.avg_speed }} km/h</span><span class="stat-label">average speed</span></div>
+    <div class="stat"><span class="stat-value">{{ $t.stations }}</span><span class="stat-label">stations</span></div>
+    <div class="stat"><span class="stat-value">{{ $t.operators }}</span><span class="stat-label">operators</span></div>
+    <div class="stat"><span class="stat-value">{{ $t.repeat_units }}</span><span class="stat-label">trains ridden more than once</span></div>
+  </div>
+
+  <h2>Year by year</h2>
+  {{ $max := 0 }}{{ range $d.by_year }}{{ $max = math.Max $max .km }}{{ end }}
+  <table class="trains-table">
+    <thead><tr><th>Year</th><th>Trips</th><th>Hours</th><th class="bar-col">Distance</th></tr></thead>
+    <tbody>
+    {{ range $d.by_year }}
+      <tr><td>{{ .year }}</td><td>{{ .trips }}</td><td>{{ .hours }}</td>
+        <td class="bar-col"><span class="bar-wrap"><span class="bar-track"><span class="bar" style="width: {{ math.Round (mul 100 (div (float .km) $max)) }}%"></span></span><span class="bar-num">{{ lang.FormatNumber 0 .km }} km</span></span></td></tr>
+    {{ end }}
+    </tbody>
+  </table>
+
+  <h2>Rankings</h2>
+  <div class="rank-grid">
+    {{ partial "trains-ranking.html" (dict "title" "Operators" "rows" $d.operators "unit" "trips") }}
+    {{ partial "trains-ranking.html" (dict "title" "Train types" "rows" $d.types "unit" "trips") }}
+    {{ partial "trains-ranking.html" (dict "title" "Stations" "rows" $d.stations "unit" "visits") }}
+    {{ partial "trains-ranking.html" (dict "title" "Routes (both directions)" "rows" $d.routes "unit" "trips") }}
+  </div>
+
+  <h2>Same train, again</h2>
+  <p>Units I have ridden more than once, out of {{ $t.units }} different ones.</p>
+  <table class="trains-table">
+    <thead><tr><th>Unit</th><th>Type</th><th>Operator</th><th>Times</th><th>First – last</th></tr></thead>
+    <tbody>
+    {{ range $d.repeat_units }}
+      <tr><td><strong>{{ .unit }}</strong></td><td>{{ .type }}</td><td>{{ .operator }}</td><td>{{ .times }}</td><td>{{ .first }}{{ if ne .first .last }} – {{ .last }}{{ end }}</td></tr>
+    {{ end }}
+    </tbody>
+  </table>
+
+  <h2>Records</h2>
+  <table class="trains-table">
+    <tbody>
+    {{ range $d.records }}
+      <tr><th scope="row">{{ .label }}</th><td><strong>{{ .value }}</strong></td><td>{{ .route }}{{ with .operator }} <span class="muted">({{ . }})</span>{{ end }}</td><td>{{ .when }}</td></tr>
+    {{ end }}
+    </tbody>
+  </table>
+
+  <p class="muted trains-notes">
+    {{ $t.delayed_share }}% of trips ({{ $t.delayed_trips }}) arrived late, about {{ $t.delay_hours }} hours in total.
+    {{ with $t.untimed_trips }}{{ . }} trips have no recorded duration and are left out of time and speed figures.{{ end }}
+    Distances are as given by the operators or route maps; delays are my own rough estimates.
+  </p>
+</div>
+{{ end }}

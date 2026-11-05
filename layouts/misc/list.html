@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div id="research">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range .Pages.ByWeight }}
+  <div class="misc-item">
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}

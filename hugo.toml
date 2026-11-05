@@ -29,6 +29,10 @@ disableKinds = ["taxonomy", "term", "rss"]
     name = "CV"
     pageRef = "/academic_cv"
     weight = 4
+  [[menus.main]]
+    name = "Misc"
+    pageRef = "/misc"
+    weight = 5
 
 # Allow raw HTML inside Markdown when you need it
 [markup.goldmark.renderer]

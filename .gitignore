@@ -9,3 +9,6 @@ sources/
 # OS / editor
 .DS_Store
 .idea/
+
+# Raw train log export: keep out of the public repo (only data/trains.json is committed)
+*.csv
