@@ -35,3 +35,7 @@ The finished site is written to `public/`. You can copy that folder to any web s
 Pushing to `master` deploys to GitHub Pages through `.github/workflows/hugo.yml`.
 
 Theme adapted from templates by [Mauricio Urraco](https://github.com/murraco) and [Nathan Randecker](https://github.com/nrandecker).
+
+## Self-hosting on a solar-powered Raspberry Pi
+
+A step-by-step plan (Freebox setup, security, solar sizing for Paris, parts and wiring) is in [`docs/self-hosting-solar.md`](docs/self-hosting-solar.md). It is not published on the site.
