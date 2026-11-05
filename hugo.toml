@@ -1,0 +1,35 @@
+baseURL = "https://beringueb.github.io/"
+locale = "en"
+title = "Benjamin Beringue"
+# Only build what this site uses
+disableKinds = ["taxonomy", "term", "rss"]
+
+[params]
+  description = "Personal page"
+  name = "Benjamin Beringue"
+  subtitle = "Cosmologist"
+  email = "beringueb@gmail.com"
+  github = "beringueb"
+
+# Navigation (top banner on inner pages + link cards on the home page)
+[menus]
+  [[menus.main]]
+    name = "About"
+    pageRef = "/"
+    weight = 1
+  [[menus.main]]
+    name = "Research"
+    pageRef = "/research"
+    weight = 2
+  [[menus.main]]
+    name = "Publications"
+    pageRef = "/publications"
+    weight = 3
+  [[menus.main]]
+    name = "CV"
+    pageRef = "/academic_cv"
+    weight = 4
+
+# Allow raw HTML inside Markdown when you need it
+[markup.goldmark.renderer]
+  unsafe = true

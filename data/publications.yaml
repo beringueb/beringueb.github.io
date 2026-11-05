@@ -1,0 +1,50 @@
+# Add a paper by copying one block below.
+# "Beringue" in the author list is automatically shown in bold.
+sections:
+  - title: "First authored papers:"
+    papers:
+      - title: "Cosmology with Rayleigh scattering of the Cosmic Microwave Background."
+        authors: "Beringue, Meerburg, Meyers & Battaglia"
+        year: 2020
+        journal: "JCAP01(2021)060"
+        url: "https://arxiv.org/abs/2008.11688"
+
+  - title: "Second authored papers:"
+    papers:
+      - title: "Estimating the Impact of foregrounds on the Future Detection of Rayleigh scattering."
+        authors: "Zhu, Beringue, Choi, Battaglia, Meerburg & Meyers"
+        year: 2022
+        journal: "JCAP09(2022)048"
+        url: "https://arxiv.org/abs/2205.04496"
+      - title: "The primordial information content of Rayleigh Anisotropies."
+        authors: "Coulton, Beringue & Meerburg"
+        year: 2020
+        journal: "PRD 103, 043501 (2021)"
+        url: "https://arxiv.org/abs/2010.10481"
+
+  - title: "Co-authored papers:"
+    papers:
+      - title: "CCAT-prime Collaboration: Science Goals and Forecasts with Prime-Cam on the Fred Young Submillimeter Telescope."
+        authors: "CCAT-prime collaboration"
+        year: 2022
+        journal: "preprints"
+        url: "https://arxiv.org/abs/2107.10364"
+      - title: "The Simons Observatory: Science goals and forecasts."
+        authors: "Simons Observatory Collaboration"
+        year: 2019
+        journal: "JCAP02(2019)056"
+        url: "https://arxiv.org/abs/1808.07445"
+      - title: "CCAT-prime: Science with an Ultra-widefield Submillimeter Observatory at Cerro Chajnantor."
+        authors: "Stacey et al."
+        year: 2018
+        url: "https://arxiv.org/abs/1807.04354"
+      - title: "Science from an Ultra-Deep, High-Resolution Millimeter-Wave Survey."
+        authors: "Sehgal et al."
+        year: 2019
+        journal: "Astro2020 white paper"
+        url: "https://arxiv.org/abs/1903.03263"
+      - title: "The CCAT-Prime Submillimeter Observatory."
+        authors: "CCAT-prime collaboration"
+        year: 2019
+        journal: "Astro2020 white paper"
+        url: "https://arxiv.org/abs/1909.02587"

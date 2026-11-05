@@ -1,0 +1,11 @@
+# Hugo build output
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Source files kept locally but not published
+sources/
+
+# OS / editor
+.DS_Store
+.idea/

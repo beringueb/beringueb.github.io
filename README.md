@@ -1,93 +1,36 @@
-# Jekyll Resume Theme
+# Benjamin Beringue — personal website
 
-Live demo at https://jekyll-theme-minimal-resume.netlify.com/
+Static site built with [Hugo](https://gohugo.io). Content is plain Markdown.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/24d80ae8-c3d9-4645-a6d8-9e97fc8dec3c/deploy-status)](https://app.netlify.com/sites/jekyll-theme-minimal-resume/deploys)
+## Editing content
 
-# Stack
+| What | Where |
+|---|---|
+| Landing page "about" text and photo | `content/_index.md` |
+| Research projects (one file each) | `content/research/*.md` — front matter: `title`, `link`, `image`, `weight` (order) |
+| Publications list | `data/publications.yaml` |
+| Publications intro text | `content/publications/_index.md` |
+| CV page | `content/academic_cv.md` |
+| Images, PDFs, CSS, JS | `static/` (served as-is) |
+| Name, email, menu | `hugo.toml` |
 
-![](https://img.shields.io/badge/jekyll-✓-blue.svg)
-![](https://img.shields.io/badge/html5-✓-blue.svg)
-![](https://img.shields.io/badge/sass-✓-blue.svg)
-![](https://img.shields.io/badge/sweet--scroll-✓-blue.svg)
-![](https://img.shields.io/badge/particle--js-✓-blue.svg)
-![](https://img.shields.io/badge/font--awesome-✓-blue.svg)
-![](https://img.shields.io/badge/devicon-✓-blue.svg)
-![](https://img.shields.io/badge/gulp-✓-blue.svg)
+To add a research project, copy `content/research/sps4lat.md`, edit it, and drop the image in `static/images/`.
 
-***
+## Preview locally
 
-<h3 align="center">Please help this repo with a :star: if you find it useful! :blush:</h3>
-
-***
-
-# Screenshot
-
-<p align="center">
-  <img src="https://github.com/murraco/jekyll-theme-minimal-resume/blob/master/screenshot.png" width="90%" />
-</p>
-
-# Quick Setup
-
-1. Install Jekyll: `gem install jekyll bundler`
-2. Fork this repository and clone your fork
-3. Edit `_config.yml` to personalize your site
-
-# Settings
-
-You have to fill some informations on `_config.yml` to customize your site:
-
-## Site settings
-```yml
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your site
+```bash
+hugo server
 ```
 
-## User settings
-```yml
-username: Lorem Ipsum
-user_description: Software Engineer at Lorem Ipsum Dolor
-user_title: Mauricio Urraco
-email: mauriurraco@gmail.com
+Then open http://localhost:1313.
+
+## Build
+
+```bash
+hugo --minify
 ```
 
-> Don't forget to change your URL before you deploy your site!
+The finished site is written to `public/`. You can copy that folder to any web server (e.g. a Raspberry Pi) with `rsync`.
+Pushing to `master` deploys to GitHub Pages through `.github/workflows/hugo.yml`.
 
-# Color and Particle Customization
-
-- Color Customization
-  - Edit the `.sass` variables
-- Particle Customization
-  - Edit the json data in particle function in `app.js`
-  - Refer to `Particle.js` for help
-
-# Content
-
-You can (and should) edit the `.html` files for adding your own information, icons, working experience, social links or whatever you want to add. I.e.:
-
-```html
-<a aria-label="My Github" target="_blank" href="https://github.com/murraco">
-  <i class="icon fa fa-github-alt" aria-hidden="true"></i>
-</a>
-```
-
-# Running locally
-
-In order to compile the assets and run `Jekyll` locally you need to follow those steps:
-
-1. Install Jekyll
-2. Run `bundle install`
-3. Run `bundle exec jekyll build`
-4. Start and http-server in the folder `_site`
-
-# Contribution
-
-- Report issues
-- Open pull request with improvements
-- Spread the word
-- Reach out to me directly at <mauriurraco@gmail.com>
-
-# Credits
-
-- [Nathan Randecker](https://github.com/nrandecker)
+Theme adapted from templates by [Mauricio Urraco](https://github.com/murraco) and [Nathan Randecker](https://github.com/nrandecker).

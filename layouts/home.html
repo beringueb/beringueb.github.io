@@ -1,0 +1,12 @@
+{{ define "header" }}{{ partial "particles-header.html" . }}{{ end }}
+{{ define "main" }}
+<div class="user-details">
+  {{ with .Params.photo }}<p><img src="{{ . | relURL }}" alt="{{ site.Params.name }}" height="300" style="float:left;margin-right:30px;margin-left:30px;"></p>{{ end }}
+  {{ .Content }}
+</div>
+<div class="user">
+  {{ range site.Menus.main }}{{ if ne .URL "/" }}
+  <div class="tech"><h2><a href="{{ .URL }}">{{ .Name }}</a></h2></div>
+  {{ end }}{{ end }}
+</div>
+{{ end }}

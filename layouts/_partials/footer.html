@@ -1,0 +1,8 @@
+<footer class="footer">
+  <p>&copy; {{ site.Params.name }}. {{ now.Year }}. Built with <a href="https://gohugo.io">Hugo</a>. Theme adapted from <a href="https://github.com/murraco">Mauricio Urraco</a>.</p>
+</footer>
+{{ if .IsHome }}
+<script src="{{ "assets/js/particles.min.js" | relURL }}"></script>
+<script src="{{ "assets/js/sweet-scroll.min.js" | relURL }}"></script>
+<script src="{{ "assets/js/main.js" | relURL }}"></script>
+{{ end }}

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Locale }}">
+  {{ partial "head.html" . }}
+  <body>
+    {{ block "header" . }}{{ partial "banner.html" . }}{{ end }}
+    <section id="about">
+      {{ block "main" . }}{{ end }}
+    </section>
+    {{ partial "footer.html" . }}
+  </body>
+</html>
