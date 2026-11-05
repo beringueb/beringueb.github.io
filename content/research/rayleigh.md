@@ -3,7 +3,7 @@ title: "Rayleigh scattering of the CMB."
 link: "https://arxiv.org/abs/2008.11688"
 image: "images/rayleigh_lss.png"
 image_alt: "Rayleigh scattering makes the last scattering surface frequency dependent: at high frequency it lies slightly later and closer to us, so the same physical scale is seen under a larger angle."
-weight: 1
+weight: 2
 ---
 
 Most CMB photons last scattered off free electrons (Thomson scattering), a process that does not depend on frequency.

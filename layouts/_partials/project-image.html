@@ -1,0 +1,7 @@
+{{- /* Research project figure, with optional caption (front matter: image, image_alt, caption) */ -}}
+{{ with .Params.image }}
+<figure class="image">
+  <img src="{{ . | relURL }}" alt="{{ $.Params.image_alt | default $.Title }}">
+  {{ with $.Params.caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>
+{{ end }}
