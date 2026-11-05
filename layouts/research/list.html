@@ -5,7 +5,7 @@
   <br>
   {{ range $i, $p := .Pages.ByWeight }}
     {{ $title := cond (isset $p.Params "link") (printf "<a href=%q>%s</a>" $p.Params.link $p.Title) $p.Title }}
-    {{ $img := "" }}{{ with $p.Params.image }}{{ $img = printf "<div class=\"image\"><img src=%q alt=%q></div>" (. | relURL) $p.Title }}{{ end }}
+    {{ $img := "" }}{{ with $p.Params.image }}{{ $img = printf "<div class=\"image\"><img src=%q alt=%q></div>" (. | relURL) ($p.Params.image_alt | default $p.Title) }}{{ end }}
     {{ if modBool $i 2 }}
     <div class="project">
       <div class="text"><h3>{{ $title | safeHTML }}</h3>{{ $p.Content }}</div>

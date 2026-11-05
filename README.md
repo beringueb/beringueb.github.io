@@ -12,6 +12,7 @@ Static site built with [Hugo](https://gohugo.io). Content is plain Markdown.
 | Publications intro text | `content/publications/_index.md` |
 | CV page | `content/academic_cv.md` |
 | Images, PDFs, CSS, JS | `static/` (served as-is) |
+| Scripts that generate figures | `scripts/` (e.g. `rayleigh_figure.py` → `static/images/rayleigh_lss.png`) |
 | Name, email, menu | `hugo.toml` |
 
 To add a research project, copy `content/research/sps4lat.md`, edit it, and drop the image in `static/images/`.

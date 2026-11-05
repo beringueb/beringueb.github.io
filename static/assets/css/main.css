@@ -5180,7 +5180,7 @@ body {
 
 .project {
 	display: grid;
-	grid-template-columns: 2.5fr 1fr; /* Two columns of equal width */
+	grid-template-columns: 3fr 2fr; /* text | image */
 	align-items: center; /* Align items vertically */
 	gap: 40px; /* Adjust as needed */
   }
@@ -5235,4 +5235,16 @@ body {
 	text-decoration: none;
 	margin: 0;
 	color: #fff
+}
+
+/* Research text: justified, with hyphenation to avoid large word gaps */
+.project .text,
+.project_right .text {
+	text-align: justify;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+}
+.project .text h3,
+.project_right .text h3 {
+	text-align: left;
 }
