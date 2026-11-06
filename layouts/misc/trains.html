@@ -52,8 +52,8 @@
 
   <h2>Most taken routes</h2>
   <figure class="trains-map-wrap">
-    {{ with resources.Get "images/trains_map.svg" }}{{ .Content | safeHTML }}{{ end }}
-    <figcaption>Every route I have taken, darker and thicker the more often. Stations in the same city are merged; arcs join the two ends and do not follow the tracks. Hover a route for details.</figcaption>
+    {{ with resources.Get "images/trains_map_tracks.svg" }}{{ .Content | safeHTML }}{{ end }}
+    <figcaption>Every route I have taken, along the tracks. Where routes share a line, its colour counts all the trips on it. Hover a route for details; zoom with ctrl/⌘ + scroll, a pinch, a double-click or the buttons, and drag to move around.</figcaption>
   </figure>
 
   <h2>Records</h2>

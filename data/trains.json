@@ -5,11 +5,11 @@
   },
   "totals": {
     "trips": 255,
-    "km": 90357,
+    "km": 89913,
     "hours": 606,
-    "avg_speed": 148,
-    "earth_laps": 2.25,
-    "moon_share": 24,
+    "avg_speed": 147,
+    "earth_laps": 2.24,
+    "moon_share": 23,
     "stations": 116,
     "operators": 18,
     "units": 210,
@@ -20,25 +20,25 @@
     {
       "year": 2023,
       "trips": 59,
-      "km": 13427,
+      "km": 13495,
       "hours": 95
     },
     {
       "year": 2024,
       "trips": 82,
-      "km": 29709,
+      "km": 29479,
       "hours": 206
     },
     {
       "year": 2025,
       "trips": 90,
-      "km": 34922,
+      "km": 34813,
       "hours": 236
     },
     {
       "year": 2026,
       "trips": 24,
-      "km": 12299,
+      "km": 12126,
       "hours": 69
     }
   ],
@@ -46,27 +46,27 @@
     {
       "name": "SNCF",
       "trips": 164,
-      "km": 68171
+      "km": 67603
     },
     {
       "name": "GWR",
       "trips": 23,
-      "km": 3627
+      "km": 3514
     },
     {
       "name": "DB",
       "trips": 16,
-      "km": 2737
+      "km": 2951
     },
     {
       "name": "Eurostar",
       "trips": 14,
-      "km": 6860
+      "km": 6888
     },
     {
       "name": "Transport for Wales",
       "trips": 5,
-      "km": 475
+      "km": 470
     },
     {
       "name": "ÖBB",
@@ -81,27 +81,27 @@
     {
       "name": "Renfe",
       "trips": 5,
-      "km": 3692
+      "km": 3684
     },
     {
       "name": "SBB CFF",
       "trips": 3,
-      "km": 346
+      "km": 348
     },
     {
       "name": "Avanti West Coast",
       "trips": 3,
-      "km": 657
+      "km": 660
     },
     {
       "name": "ONCF",
       "trips": 3,
-      "km": 1077
+      "km": 1075
     },
     {
       "name": "Northern",
       "trips": 2,
-      "km": 80
+      "km": 82
     },
     {
       "name": "West Midlands Railway",
@@ -111,12 +111,12 @@
     {
       "name": "Thameslink",
       "trips": 1,
-      "km": 92
+      "km": 95
     },
     {
       "name": "Westbahn",
       "trips": 1,
-      "km": 64
+      "km": 62
     },
     {
       "name": "CrossCountry",
@@ -126,84 +126,84 @@
     {
       "name": "OUIGO España",
       "trips": 1,
-      "km": 620
+      "km": 621
     },
     {
       "name": "Iryo",
       "trips": 1,
-      "km": 620
+      "km": 621
     }
   ],
   "types": [
     {
       "name": "EuroDuplex",
       "trips": 46,
-      "km": 23510
+      "km": 23360
     },
     {
       "name": "Duplex",
       "trips": 39,
-      "km": 23245
+      "km": 22913
     },
     {
       "name": "Class 800",
       "trips": 15,
-      "km": 2613
+      "km": 2586
     },
     {
       "name": "Locomotive-hauled",
       "trips": 15,
-      "km": 7782
+      "km": 7775
     },
     {
       "name": "ZGC",
       "trips": 14,
-      "km": 757
+      "km": 765
     },
     {
       "name": "e320",
       "trips": 10,
-      "km": 4900
+      "km": 4920
     },
     {
       "name": "Dasye",
       "trips": 10,
-      "km": 6042
+      "km": 5996
     },
     {
       "name": "Réseau",
       "trips": 8,
-      "km": 2762
+      "km": 2746
     },
     {
       "name": "Regio 2N",
       "trips": 7,
-      "km": 605
+      "km": 603
     },
     {
       "name": "TER 2N NG",
       "trips": 5,
-      "km": 395
+      "km": 393
     },
     {
       "name": "A TER",
       "trips": 5,
-      "km": 175
+      "km": 177
     },
     {
       "name": "e300",
       "trips": 4,
-      "km": 1960
+      "km": 1968
     },
     {
       "name": "Regiolis",
       "trips": 4,
-      "km": 1028
+      "km": 1047
     },
     {
       "name": "Class 802",
       "trips": 3,
-      "km": 485
+      "km": 490
     },
     {
       "name": "Class 643",
@@ -213,7 +213,7 @@
     {
       "name": "Class 429",
       "trips": 3,
-      "km": 231
+      "km": 300
     },
     {
       "name": "Class 395",
@@ -223,12 +223,12 @@
     {
       "name": "ICE 3 (Class 407)",
       "trips": 3,
-      "km": 1425
+      "km": 1424
     },
     {
       "name": "Class 150",
       "trips": 2,
-      "km": 291
+      "km": 286
     },
     {
       "name": "Class 153",
@@ -238,7 +238,7 @@
     {
       "name": "Class 166",
       "trips": 2,
-      "km": 122
+      "km": 124
     },
     {
       "name": "RABe 502",
@@ -248,32 +248,32 @@
     {
       "name": "Z2",
       "trips": 2,
-      "km": 204
+      "km": 202
     },
     {
       "name": "Duplex Réseau",
       "trips": 2,
-      "km": 1333
+      "km": 1271
     },
     {
       "name": "S-100",
       "trips": 2,
-      "km": 1802
+      "km": 1795
     },
     {
       "name": "AGC",
       "trips": 2,
-      "km": 255
+      "km": 256
     },
     {
       "name": "Class 390 Pendolino",
       "trips": 2,
-      "km": 476
+      "km": 478
     },
     {
       "name": "Class 195",
       "trips": 2,
-      "km": 80
+      "km": 82
     },
     {
       "name": "Class 196",
@@ -283,17 +283,17 @@
     {
       "name": "S-130",
       "trips": 2,
-      "km": 1270
+      "km": 1268
     },
     {
       "name": "Prima II (loco)",
       "trips": 2,
-      "km": 757
+      "km": 755
     },
     {
       "name": "Class 700",
       "trips": 1,
-      "km": 92
+      "km": 95
     },
     {
       "name": "Class 175",
@@ -303,22 +303,22 @@
     {
       "name": "ÖBB Class 4010",
       "trips": 1,
-      "km": 64
+      "km": 62
     },
     {
       "name": "Class 158",
       "trips": 1,
-      "km": 61
+      "km": 62
     },
     {
       "name": "RABe 511",
       "trips": 1,
-      "km": 26
+      "km": 28
     },
     {
       "name": "TER 2N PG",
       "trips": 1,
-      "km": 50
+      "km": 51
     },
     {
       "name": "Z TER",
@@ -328,12 +328,12 @@
     {
       "name": "S-103",
       "trips": 1,
-      "km": 620
+      "km": 621
     },
     {
       "name": "X TER",
       "trips": 1,
-      "km": 176
+      "km": 177
     },
     {
       "name": "Class 221",
@@ -343,27 +343,27 @@
     {
       "name": "Atlantique",
       "trips": 1,
-      "km": 220
+      "km": 222
     },
     {
       "name": "Class 807",
       "trips": 1,
-      "km": 181
+      "km": 182
     },
     {
       "name": "BGC",
       "trips": 1,
-      "km": 159
+      "km": 160
     },
     {
       "name": "Série 18",
       "trips": 1,
-      "km": 308
+      "km": 309
     },
     {
       "name": "S-109",
       "trips": 1,
-      "km": 620
+      "km": 621
     }
   ],
   "stations": [
@@ -532,10 +532,6 @@
       "trips": 2
     },
     {
-      "name": "Mannheim Hbf",
-      "trips": 2
-    },
-    {
       "name": "Stuttgart Hbf",
       "trips": 2
     },
@@ -545,6 +541,10 @@
     },
     {
       "name": "Nürnberg Hbf",
+      "trips": 2
+    },
+    {
+      "name": "Mannheim Hbf",
       "trips": 2
     },
     {
@@ -1002,6 +1002,14 @@
       "trips": 1
     },
     {
+      "name": "Stuttgart Hbf ↔ Stuttgart-Untertürkheim",
+      "trips": 1
+    },
+    {
+      "name": "Linz Hbf ↔ Nürnberg Hbf",
+      "trips": 1
+    },
+    {
       "name": "Mannheim Hbf ↔ Saarbrücken Hbf",
       "trips": 1
     },
@@ -1010,23 +1018,11 @@
       "trips": 1
     },
     {
-      "name": "Stuttgart Hbf ↔ Stuttgart-Untertürkheim",
-      "trips": 1
-    },
-    {
       "name": "Nürnberg Hbf ↔ Stuttgart-Untertürkheim",
       "trips": 1
     },
     {
-      "name": "Linz Hbf ↔ Nürnberg Hbf",
-      "trips": 1
-    },
-    {
       "name": "Amstetten ↔ Linz Hbf",
-      "trips": 1
-    },
-    {
-      "name": "Götzis ↔ Linz Hbf",
       "trips": 1
     },
     {
@@ -1039,6 +1035,10 @@
     },
     {
       "name": "Götzis ↔ Hohenems",
+      "trips": 1
+    },
+    {
+      "name": "Götzis ↔ Linz Hbf",
       "trips": 1
     },
     {
@@ -1114,10 +1114,6 @@
       "trips": 1
     },
     {
-      "name": "Wetzikon ↔ Zürich HB",
-      "trips": 1
-    },
-    {
       "name": "Cardiff ↔ Swindon",
       "trips": 1
     },
@@ -1127,6 +1123,10 @@
     },
     {
       "name": "Didcot Parkway ↔ Oxford",
+      "trips": 1
+    },
+    {
+      "name": "Wetzikon ↔ Zürich HB",
       "trips": 1
     },
     {
@@ -1544,7 +1544,7 @@
     {
       "label": "Longest trip",
       "route": "Madrid Atocha → Marseille St-Charles",
-      "value": "1,148 km",
+      "value": "1,143 km",
       "when": "Nov 2024",
       "operator": "Renfe AVE"
     },
@@ -1572,7 +1572,7 @@
     {
       "label": "Busiest month",
       "route": "",
-      "value": "6,402 km",
+      "value": "6,376 km",
       "when": "Dec 2025",
       "operator": ""
     }
