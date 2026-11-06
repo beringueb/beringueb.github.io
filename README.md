@@ -44,10 +44,10 @@ A step-by-step plan (Freebox setup, security, solar sizing for Paris, parts and 
 ## Updating the train statistics
 
 1. In the Google Sheet: File → Download → CSV.
-2. Run the import, which writes only aggregated stats to `data/trains.json` (no dates or times):
+2. Run the import, which writes only aggregated stats to `data/trains.json` (no dates or times) and redraws the route map `assets/images/trains_map.svg`:
 
 ```bash
 python3 scripts/trains_import.py ~/Downloads/"Rail travels - Feuille 1.csv"
 ```
 
-3. Check with `hugo server`, then commit `data/trains.json`. Station spelling fixes live at the top of the script.
+3. Check with `hugo server`, then commit `data/trains.json` and the map. Station spelling fixes live at the top of `scripts/trains_import.py`. A new station needs coordinates in `COORDS` in `scripts/trains_map.py` (the import warns if one is missing).

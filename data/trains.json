@@ -14,9 +14,6 @@
     "operators": 18,
     "units": 210,
     "repeat_units": 24,
-    "delayed_trips": 64,
-    "delayed_share": 25,
-    "delay_hours": 23.4,
     "untimed_trips": 6
   },
   "by_year": [
@@ -95,6 +92,46 @@
       "name": "Avanti West Coast",
       "trips": 3,
       "km": 657
+    },
+    {
+      "name": "ONCF",
+      "trips": 3,
+      "km": 1077
+    },
+    {
+      "name": "Northern",
+      "trips": 2,
+      "km": 80
+    },
+    {
+      "name": "West Midlands Railway",
+      "trips": 2,
+      "km": 84
+    },
+    {
+      "name": "Thameslink",
+      "trips": 1,
+      "km": 92
+    },
+    {
+      "name": "Westbahn",
+      "trips": 1,
+      "km": 64
+    },
+    {
+      "name": "CrossCountry",
+      "trips": 1,
+      "km": 84
+    },
+    {
+      "name": "OUIGO España",
+      "trips": 1,
+      "km": 620
+    },
+    {
+      "name": "Iryo",
+      "trips": 1,
+      "km": 620
     }
   ],
   "types": [
@@ -147,6 +184,186 @@
       "name": "TER 2N NG",
       "trips": 5,
       "km": 395
+    },
+    {
+      "name": "A TER",
+      "trips": 5,
+      "km": 175
+    },
+    {
+      "name": "e300",
+      "trips": 4,
+      "km": 1960
+    },
+    {
+      "name": "Regiolis",
+      "trips": 4,
+      "km": 1028
+    },
+    {
+      "name": "Class 802",
+      "trips": 3,
+      "km": 485
+    },
+    {
+      "name": "Class 643",
+      "trips": 3,
+      "km": 174
+    },
+    {
+      "name": "Class 429",
+      "trips": 3,
+      "km": 231
+    },
+    {
+      "name": "Class 395",
+      "trips": 3,
+      "km": 372
+    },
+    {
+      "name": "ICE 3 (Class 407)",
+      "trips": 3,
+      "km": 1425
+    },
+    {
+      "name": "Class 150",
+      "trips": 2,
+      "km": 291
+    },
+    {
+      "name": "Class 153",
+      "trips": 2,
+      "km": 110
+    },
+    {
+      "name": "Class 166",
+      "trips": 2,
+      "km": 122
+    },
+    {
+      "name": "RABe 502",
+      "trips": 2,
+      "km": 320
+    },
+    {
+      "name": "Z2",
+      "trips": 2,
+      "km": 204
+    },
+    {
+      "name": "Duplex Réseau",
+      "trips": 2,
+      "km": 1333
+    },
+    {
+      "name": "S-100",
+      "trips": 2,
+      "km": 1802
+    },
+    {
+      "name": "AGC",
+      "trips": 2,
+      "km": 255
+    },
+    {
+      "name": "Class 390 Pendolino",
+      "trips": 2,
+      "km": 476
+    },
+    {
+      "name": "Class 195",
+      "trips": 2,
+      "km": 80
+    },
+    {
+      "name": "Class 196",
+      "trips": 2,
+      "km": 84
+    },
+    {
+      "name": "S-130",
+      "trips": 2,
+      "km": 1270
+    },
+    {
+      "name": "Prima II (loco)",
+      "trips": 2,
+      "km": 757
+    },
+    {
+      "name": "Class 700",
+      "trips": 1,
+      "km": 92
+    },
+    {
+      "name": "Class 175",
+      "trips": 1,
+      "km": 74
+    },
+    {
+      "name": "ÖBB Class 4010",
+      "trips": 1,
+      "km": 64
+    },
+    {
+      "name": "Class 158",
+      "trips": 1,
+      "km": 61
+    },
+    {
+      "name": "RABe 511",
+      "trips": 1,
+      "km": 26
+    },
+    {
+      "name": "TER 2N PG",
+      "trips": 1,
+      "km": 50
+    },
+    {
+      "name": "Z TER",
+      "trips": 1,
+      "km": 59
+    },
+    {
+      "name": "S-103",
+      "trips": 1,
+      "km": 620
+    },
+    {
+      "name": "X TER",
+      "trips": 1,
+      "km": 176
+    },
+    {
+      "name": "Class 221",
+      "trips": 1,
+      "km": 84
+    },
+    {
+      "name": "Atlantique",
+      "trips": 1,
+      "km": 220
+    },
+    {
+      "name": "Class 807",
+      "trips": 1,
+      "km": 181
+    },
+    {
+      "name": "BGC",
+      "trips": 1,
+      "km": 159
+    },
+    {
+      "name": "Série 18",
+      "trips": 1,
+      "km": 308
+    },
+    {
+      "name": "S-109",
+      "trips": 1,
+      "km": 620
     }
   ],
   "stations": [
@@ -189,6 +406,430 @@
     {
       "name": "Karlsruhe Hbf",
       "trips": 12
+    },
+    {
+      "name": "Paris Austerlitz",
+      "trips": 12
+    },
+    {
+      "name": "Grenoble",
+      "trips": 12
+    },
+    {
+      "name": "Chambéry",
+      "trips": 11
+    },
+    {
+      "name": "Paris Montparnasse",
+      "trips": 10
+    },
+    {
+      "name": "Lyon Part-Dieu",
+      "trips": 9
+    },
+    {
+      "name": "Béning",
+      "trips": 7
+    },
+    {
+      "name": "Bristol Temple Meads",
+      "trips": 6
+    },
+    {
+      "name": "Saarbrücken Hbf",
+      "trips": 6
+    },
+    {
+      "name": "Neustadt (Weinstrasse)",
+      "trips": 6
+    },
+    {
+      "name": "Genève Cornavin",
+      "trips": 6
+    },
+    {
+      "name": "Montpellier St Roch",
+      "trips": 6
+    },
+    {
+      "name": "Barcelona Sants",
+      "trips": 6
+    },
+    {
+      "name": "Madrid Atocha",
+      "trips": 6
+    },
+    {
+      "name": "Bordeaux St Jean",
+      "trips": 6
+    },
+    {
+      "name": "Dover Priory",
+      "trips": 5
+    },
+    {
+      "name": "Toulouse Matabiau",
+      "trips": 5
+    },
+    {
+      "name": "Götzis",
+      "trips": 4
+    },
+    {
+      "name": "Nancy Ville",
+      "trips": 4
+    },
+    {
+      "name": "Collioure",
+      "trips": 4
+    },
+    {
+      "name": "Orléans",
+      "trips": 4
+    },
+    {
+      "name": "Birmingham New Street",
+      "trips": 4
+    },
+    {
+      "name": "Linz Hbf",
+      "trips": 3
+    },
+    {
+      "name": "Zürich HB",
+      "trips": 3
+    },
+    {
+      "name": "Marseille Blancarde",
+      "trips": 3
+    },
+    {
+      "name": "Paris Bercy",
+      "trips": 3
+    },
+    {
+      "name": "Perpignan",
+      "trips": 3
+    },
+    {
+      "name": "Narbonne",
+      "trips": 3
+    },
+    {
+      "name": "Lyon Perrache",
+      "trips": 3
+    },
+    {
+      "name": "London Euston",
+      "trips": 3
+    },
+    {
+      "name": "Manchester Piccadilly",
+      "trips": 3
+    },
+    {
+      "name": "Swansea",
+      "trips": 2
+    },
+    {
+      "name": "Mannheim Hbf",
+      "trips": 2
+    },
+    {
+      "name": "Stuttgart Hbf",
+      "trips": 2
+    },
+    {
+      "name": "Stuttgart-Untertürkheim",
+      "trips": 2
+    },
+    {
+      "name": "Nürnberg Hbf",
+      "trips": 2
+    },
+    {
+      "name": "Bregenz Hafen",
+      "trips": 2
+    },
+    {
+      "name": "Hohenems",
+      "trips": 2
+    },
+    {
+      "name": "Radolfzell",
+      "trips": 2
+    },
+    {
+      "name": "Dax",
+      "trips": 2
+    },
+    {
+      "name": "Luzern HB",
+      "trips": 2
+    },
+    {
+      "name": "Swindon",
+      "trips": 2
+    },
+    {
+      "name": "Didcot Parkway",
+      "trips": 2
+    },
+    {
+      "name": "Oxford",
+      "trips": 2
+    },
+    {
+      "name": "Remiremont",
+      "trips": 2
+    },
+    {
+      "name": "Nantes",
+      "trips": 2
+    },
+    {
+      "name": "Rivesaltes",
+      "trips": 2
+    },
+    {
+      "name": "Blois",
+      "trips": 2
+    },
+    {
+      "name": "Leucate La Franqui",
+      "trips": 2
+    },
+    {
+      "name": "Annecy",
+      "trips": 2
+    },
+    {
+      "name": "La Hume",
+      "trips": 2
+    },
+    {
+      "name": "Facture Biganos",
+      "trips": 2
+    },
+    {
+      "name": "Mont de Marsan",
+      "trips": 2
+    },
+    {
+      "name": "Nogent sur Seine",
+      "trips": 2
+    },
+    {
+      "name": "Exeter St Davids",
+      "trips": 2
+    },
+    {
+      "name": "Avignon TGV",
+      "trips": 2
+    },
+    {
+      "name": "Dijon Ville",
+      "trips": 2
+    },
+    {
+      "name": "St Nazaire",
+      "trips": 2
+    },
+    {
+      "name": "Nîmes Centre",
+      "trips": 2
+    },
+    {
+      "name": "Bruxelles Midi",
+      "trips": 2
+    },
+    {
+      "name": "Algeciras",
+      "trips": 2
+    },
+    {
+      "name": "Tanger Ville",
+      "trips": 2
+    },
+    {
+      "name": "Ben Guérir",
+      "trips": 2
+    },
+    {
+      "name": "Casa Voyageurs",
+      "trips": 2
+    },
+    {
+      "name": "Les Aubrais",
+      "trips": 2
+    },
+    {
+      "name": "Clermont Ferrand",
+      "trips": 2
+    },
+    {
+      "name": "Valence TGV",
+      "trips": 2
+    },
+    {
+      "name": "St Claude",
+      "trips": 2
+    },
+    {
+      "name": "Cambridge",
+      "trips": 1
+    },
+    {
+      "name": "London Farringdon",
+      "trips": 1
+    },
+    {
+      "name": "Haverfordwest",
+      "trips": 1
+    },
+    {
+      "name": "Fishguard & Goodwick",
+      "trips": 1
+    },
+    {
+      "name": "Amstetten",
+      "trips": 1
+    },
+    {
+      "name": "Bregenz",
+      "trips": 1
+    },
+    {
+      "name": "Friedrichshafen",
+      "trips": 1
+    },
+    {
+      "name": "London Charing Cross",
+      "trips": 1
+    },
+    {
+      "name": "Deal",
+      "trips": 1
+    },
+    {
+      "name": "Calais Ville",
+      "trips": 1
+    },
+    {
+      "name": "Port Talbot Parkway",
+      "trips": 1
+    },
+    {
+      "name": "Bath Spa",
+      "trips": 1
+    },
+    {
+      "name": "Briton Ferry",
+      "trips": 1
+    },
+    {
+      "name": "Newport",
+      "trips": 1
+    },
+    {
+      "name": "Lille Flandres",
+      "trips": 1
+    },
+    {
+      "name": "Lille Europe",
+      "trips": 1
+    },
+    {
+      "name": "Wetzikon",
+      "trips": 1
+    },
+    {
+      "name": "Bandol",
+      "trips": 1
+    },
+    {
+      "name": "Port Bou",
+      "trips": 1
+    },
+    {
+      "name": "Cerbère",
+      "trips": 1
+    },
+    {
+      "name": "Forbach",
+      "trips": 1
+    },
+    {
+      "name": "St Avold",
+      "trips": 1
+    },
+    {
+      "name": "Vendôme",
+      "trips": 1
+    },
+    {
+      "name": "Hope",
+      "trips": 1
+    },
+    {
+      "name": "Edale",
+      "trips": 1
+    },
+    {
+      "name": "Plymouth",
+      "trips": 1
+    },
+    {
+      "name": "Morlaix",
+      "trips": 1
+    },
+    {
+      "name": "Mâcon Loché TGV",
+      "trips": 1
+    },
+    {
+      "name": "Fleurville/Pont de Vaux",
+      "trips": 1
+    },
+    {
+      "name": "St Pierre des Corps",
+      "trips": 1
+    },
+    {
+      "name": "Worcester Shrub Hill",
+      "trips": 1
+    },
+    {
+      "name": "Worcester Forgate Street",
+      "trips": 1
+    },
+    {
+      "name": "Aurillac",
+      "trips": 1
+    },
+    {
+      "name": "Figeac",
+      "trips": 1
+    },
+    {
+      "name": "Aéroport CDG",
+      "trips": 1
+    },
+    {
+      "name": "Boussens",
+      "trips": 1
+    },
+    {
+      "name": "Morez",
+      "trips": 1
+    },
+    {
+      "name": "Morbier",
+      "trips": 1
+    },
+    {
+      "name": "Montpellier Sud France",
+      "trips": 1
     }
   ],
   "routes": [
@@ -211,6 +852,498 @@
     {
       "name": "Grenoble ↔ Paris Gare de Lyon",
       "trips": 9
+    },
+    {
+      "name": "Karlsruhe Hbf ↔ Paris Est",
+      "trips": 8
+    },
+    {
+      "name": "Béning ↔ Metz Ville",
+      "trips": 7
+    },
+    {
+      "name": "Metz Ville ↔ Paris Est",
+      "trips": 6
+    },
+    {
+      "name": "Chambéry ↔ Paris Gare de Lyon",
+      "trips": 6
+    },
+    {
+      "name": "Montpellier St Roch ↔ Paris Gare de Lyon",
+      "trips": 5
+    },
+    {
+      "name": "Lyon Part-Dieu ↔ Paris Gare de Lyon",
+      "trips": 5
+    },
+    {
+      "name": "Bristol Temple Meads ↔ Cardiff",
+      "trips": 4
+    },
+    {
+      "name": "Karlsruhe Hbf ↔ Neustadt (Weinstrasse)",
+      "trips": 3
+    },
+    {
+      "name": "Neustadt (Weinstrasse) ↔ Saarbrücken Hbf",
+      "trips": 3
+    },
+    {
+      "name": "Dover Priory ↔ London St Pancras",
+      "trips": 3
+    },
+    {
+      "name": "Genève Cornavin ↔ Paris Gare de Lyon",
+      "trips": 3
+    },
+    {
+      "name": "Marseille Blancarde ↔ Paris Austerlitz",
+      "trips": 3
+    },
+    {
+      "name": "Lyon Perrache ↔ Paris Gare de Lyon",
+      "trips": 3
+    },
+    {
+      "name": "Barcelona Sants ↔ Madrid Atocha",
+      "trips": 3
+    },
+    {
+      "name": "Bordeaux St Jean ↔ Paris Montparnasse",
+      "trips": 3
+    },
+    {
+      "name": "Chambéry ↔ Genève Cornavin",
+      "trips": 2
+    },
+    {
+      "name": "Chambéry ↔ Grenoble",
+      "trips": 2
+    },
+    {
+      "name": "Nancy Ville ↔ Paris Est",
+      "trips": 2
+    },
+    {
+      "name": "Nancy Ville ↔ Remiremont",
+      "trips": 2
+    },
+    {
+      "name": "Nantes ↔ Paris Montparnasse",
+      "trips": 2
+    },
+    {
+      "name": "Orléans ↔ Paris Austerlitz",
+      "trips": 2
+    },
+    {
+      "name": "Blois ↔ Orléans",
+      "trips": 2
+    },
+    {
+      "name": "Metz Ville ↔ Thionville",
+      "trips": 2
+    },
+    {
+      "name": "Barcelona Sants ↔ Paris Gare de Lyon",
+      "trips": 2
+    },
+    {
+      "name": "Marseille St-Charles ↔ Thionville",
+      "trips": 2
+    },
+    {
+      "name": "Nogent sur Seine ↔ Paris Est",
+      "trips": 2
+    },
+    {
+      "name": "Avignon TGV ↔ Paris Gare de Lyon",
+      "trips": 2
+    },
+    {
+      "name": "Paris Montparnasse ↔ St Nazaire",
+      "trips": 2
+    },
+    {
+      "name": "Birmingham New Street ↔ London Euston",
+      "trips": 2
+    },
+    {
+      "name": "Algeciras ↔ Madrid Atocha",
+      "trips": 2
+    },
+    {
+      "name": "Les Aubrais ↔ Paris Austerlitz",
+      "trips": 2
+    },
+    {
+      "name": "Clermont Ferrand ↔ Paris Bercy",
+      "trips": 2
+    },
+    {
+      "name": "Bristol Temple Meads ↔ London Paddington",
+      "trips": 1
+    },
+    {
+      "name": "Cambridge ↔ London Farringdon",
+      "trips": 1
+    },
+    {
+      "name": "Cardiff ↔ Haverfordwest",
+      "trips": 1
+    },
+    {
+      "name": "Fishguard & Goodwick ↔ Swansea",
+      "trips": 1
+    },
+    {
+      "name": "Cardiff ↔ Swansea",
+      "trips": 1
+    },
+    {
+      "name": "Mannheim Hbf ↔ Saarbrücken Hbf",
+      "trips": 1
+    },
+    {
+      "name": "Mannheim Hbf ↔ Stuttgart Hbf",
+      "trips": 1
+    },
+    {
+      "name": "Stuttgart Hbf ↔ Stuttgart-Untertürkheim",
+      "trips": 1
+    },
+    {
+      "name": "Nürnberg Hbf ↔ Stuttgart-Untertürkheim",
+      "trips": 1
+    },
+    {
+      "name": "Linz Hbf ↔ Nürnberg Hbf",
+      "trips": 1
+    },
+    {
+      "name": "Amstetten ↔ Linz Hbf",
+      "trips": 1
+    },
+    {
+      "name": "Götzis ↔ Linz Hbf",
+      "trips": 1
+    },
+    {
+      "name": "Bregenz ↔ Götzis",
+      "trips": 1
+    },
+    {
+      "name": "Bregenz Hafen ↔ Hohenems",
+      "trips": 1
+    },
+    {
+      "name": "Götzis ↔ Hohenems",
+      "trips": 1
+    },
+    {
+      "name": "Bregenz Hafen ↔ Götzis",
+      "trips": 1
+    },
+    {
+      "name": "Friedrichshafen ↔ Radolfzell",
+      "trips": 1
+    },
+    {
+      "name": "Karlsruhe Hbf ↔ Radolfzell",
+      "trips": 1
+    },
+    {
+      "name": "Dover Priory ↔ London Charing Cross",
+      "trips": 1
+    },
+    {
+      "name": "Deal ↔ Dover Priory",
+      "trips": 1
+    },
+    {
+      "name": "Calais Ville ↔ Paris Nord",
+      "trips": 1
+    },
+    {
+      "name": "Cardiff ↔ Port Talbot Parkway",
+      "trips": 1
+    },
+    {
+      "name": "Bath Spa ↔ Bristol Temple Meads",
+      "trips": 1
+    },
+    {
+      "name": "Briton Ferry ↔ Cardiff",
+      "trips": 1
+    },
+    {
+      "name": "Cardiff ↔ Newport",
+      "trips": 1
+    },
+    {
+      "name": "Paris Est ↔ Saarbrücken Hbf",
+      "trips": 1
+    },
+    {
+      "name": "Lille Flandres ↔ Paris Nord",
+      "trips": 1
+    },
+    {
+      "name": "Lille Europe ↔ Paris Nord",
+      "trips": 1
+    },
+    {
+      "name": "Dax ↔ Paris Montparnasse",
+      "trips": 1
+    },
+    {
+      "name": "Dax ↔ Paris Austerlitz",
+      "trips": 1
+    },
+    {
+      "name": "Genève Cornavin ↔ Luzern HB",
+      "trips": 1
+    },
+    {
+      "name": "Luzern HB ↔ Zürich HB",
+      "trips": 1
+    },
+    {
+      "name": "Paris Gare de Lyon ↔ Zürich HB",
+      "trips": 1
+    },
+    {
+      "name": "Wetzikon ↔ Zürich HB",
+      "trips": 1
+    },
+    {
+      "name": "Cardiff ↔ Swindon",
+      "trips": 1
+    },
+    {
+      "name": "Didcot Parkway ↔ Swindon",
+      "trips": 1
+    },
+    {
+      "name": "Didcot Parkway ↔ Oxford",
+      "trips": 1
+    },
+    {
+      "name": "London Paddington ↔ Oxford",
+      "trips": 1
+    },
+    {
+      "name": "Bandol ↔ Marseille St-Charles",
+      "trips": 1
+    },
+    {
+      "name": "Lyon Part-Dieu ↔ Paris Bercy",
+      "trips": 1
+    },
+    {
+      "name": "Grenoble ↔ Lyon Part-Dieu",
+      "trips": 1
+    },
+    {
+      "name": "Perpignan ↔ Rivesaltes",
+      "trips": 1
+    },
+    {
+      "name": "Collioure ↔ Perpignan",
+      "trips": 1
+    },
+    {
+      "name": "Collioure ↔ Rivesaltes",
+      "trips": 1
+    },
+    {
+      "name": "Narbonne ↔ Perpignan",
+      "trips": 1
+    },
+    {
+      "name": "Marseille St-Charles ↔ Narbonne",
+      "trips": 1
+    },
+    {
+      "name": "Narbonne ↔ Paris Austerlitz",
+      "trips": 1
+    },
+    {
+      "name": "Leucate La Franqui ↔ Port Bou",
+      "trips": 1
+    },
+    {
+      "name": "Cerbère ↔ Collioure",
+      "trips": 1
+    },
+    {
+      "name": "Collioure ↔ Leucate La Franqui",
+      "trips": 1
+    },
+    {
+      "name": "Forbach ↔ Saarbrücken Hbf",
+      "trips": 1
+    },
+    {
+      "name": "Madrid Atocha ↔ Marseille St-Charles",
+      "trips": 1
+    },
+    {
+      "name": "Annecy ↔ Paris Gare de Lyon",
+      "trips": 1
+    },
+    {
+      "name": "Annecy ↔ Chambéry",
+      "trips": 1
+    },
+    {
+      "name": "Montpellier St Roch ↔ Paris Austerlitz",
+      "trips": 1
+    },
+    {
+      "name": "Bordeaux St Jean ↔ La Hume",
+      "trips": 1
+    },
+    {
+      "name": "Facture Biganos ↔ La Hume",
+      "trips": 1
+    },
+    {
+      "name": "Facture Biganos ↔ Mont de Marsan",
+      "trips": 1
+    },
+    {
+      "name": "Bordeaux St Jean ↔ Mont de Marsan",
+      "trips": 1
+    },
+    {
+      "name": "Metz Ville ↔ St Avold",
+      "trips": 1
+    },
+    {
+      "name": "Paris Austerlitz ↔ Vendôme",
+      "trips": 1
+    },
+    {
+      "name": "London Euston ↔ Manchester Piccadilly",
+      "trips": 1
+    },
+    {
+      "name": "Hope ↔ Manchester Piccadilly",
+      "trips": 1
+    },
+    {
+      "name": "Edale ↔ Manchester Piccadilly",
+      "trips": 1
+    },
+    {
+      "name": "Cardiff ↔ Exeter St Davids",
+      "trips": 1
+    },
+    {
+      "name": "Exeter St Davids ↔ Plymouth",
+      "trips": 1
+    },
+    {
+      "name": "Morlaix ↔ Paris Montparnasse",
+      "trips": 1
+    },
+    {
+      "name": "Mâcon Loché TGV ↔ Paris Gare de Lyon",
+      "trips": 1
+    },
+    {
+      "name": "Dijon Ville ↔ Fleurville/Pont de Vaux",
+      "trips": 1
+    },
+    {
+      "name": "Dijon Ville ↔ Paris Gare de Lyon",
+      "trips": 1
+    },
+    {
+      "name": "Paris Montparnasse ↔ St Pierre des Corps",
+      "trips": 1
+    },
+    {
+      "name": "Birmingham New Street ↔ Worcester Shrub Hill",
+      "trips": 1
+    },
+    {
+      "name": "Birmingham New Street ↔ Worcester Forgate Street",
+      "trips": 1
+    },
+    {
+      "name": "Aurillac ↔ Paris Austerlitz",
+      "trips": 1
+    },
+    {
+      "name": "Figeac ↔ Toulouse Matabiau",
+      "trips": 1
+    },
+    {
+      "name": "Nîmes Centre ↔ Toulouse Matabiau",
+      "trips": 1
+    },
+    {
+      "name": "Nîmes Centre ↔ Paris Gare de Lyon",
+      "trips": 1
+    },
+    {
+      "name": "Bruxelles Midi ↔ Paris Nord",
+      "trips": 1
+    },
+    {
+      "name": "Aéroport CDG ↔ Bruxelles Midi",
+      "trips": 1
+    },
+    {
+      "name": "Barcelona Sants ↔ Lyon Part-Dieu",
+      "trips": 1
+    },
+    {
+      "name": "Ben Guérir ↔ Tanger Ville",
+      "trips": 1
+    },
+    {
+      "name": "Ben Guérir ↔ Casa Voyageurs",
+      "trips": 1
+    },
+    {
+      "name": "Casa Voyageurs ↔ Tanger Ville",
+      "trips": 1
+    },
+    {
+      "name": "Lyon Part-Dieu ↔ Marseille St-Charles",
+      "trips": 1
+    },
+    {
+      "name": "Bordeaux St Jean ↔ Toulouse Matabiau",
+      "trips": 1
+    },
+    {
+      "name": "Boussens ↔ Toulouse Matabiau",
+      "trips": 1
+    },
+    {
+      "name": "Toulouse Matabiau ↔ Valence TGV",
+      "trips": 1
+    },
+    {
+      "name": "Marseille St-Charles ↔ Valence TGV",
+      "trips": 1
+    },
+    {
+      "name": "Morez ↔ St Claude",
+      "trips": 1
+    },
+    {
+      "name": "Morbier ↔ St Claude",
+      "trips": 1
+    },
+    {
+      "name": "Montpellier Sud France ↔ Paris Gare de Lyon",
+      "trips": 1
     }
   ],
   "repeat_units": [
@@ -435,13 +1568,6 @@
       "value": "4 km",
       "when": "Jul 2023",
       "operator": "ÖBB"
-    },
-    {
-      "label": "Biggest delay",
-      "route": "Collioure → Leucate La Franqui",
-      "value": "~1h20",
-      "when": "Oct 2024",
-      "operator": "SNCF TER"
     },
     {
       "label": "Busiest month",

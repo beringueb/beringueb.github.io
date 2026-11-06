@@ -5033,7 +5033,7 @@ sup {
 	}
 }
 
-#about svg {
+#about svg:not(.trains-map) {
 	width: 60px!important;
 	height: auto
 }
@@ -5317,3 +5317,8 @@ figure.image figcaption {
 .rank-unit { font-size: 0.8em; margin-top: 0.3em; }
 .trains-notes { font-size: 0.85em; margin-top: 2em; }
 .trains-table td strong, .trains-table td:last-child { white-space: nowrap; }
+.rank-more summary { cursor: pointer; font-size: 0.85em; color: #4169E1; margin: 0.3em 0 0 1.4em; }
+.rank-more ol { margin-top: 0.3em; }
+.trains-map-wrap { margin: 0.5em 0 1.5em; }
+.trains-map { display: block; width: 100%; height: auto; margin: 0 auto; }
+.trains-map-wrap figcaption { margin: 0.4em 0 0; font-size: 0.85em; color: #777; }

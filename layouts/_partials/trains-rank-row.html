@@ -1,0 +1,5 @@
+{{- /* One row of trains-ranking.html: dict "row", "max" */ -}}
+<li>
+      <span class="rank-name">{{ .row.name }}</span>
+      <span class="bar-wrap"><span class="bar-track"><span class="bar" style="width: {{ math.Round (mul 100 (div (float .row.trips) .max)) }}%"></span></span><span class="bar-num">{{ .row.trips }}{{ with .row.km }} · {{ lang.FormatNumber 0 . }} km{{ end }}</span></span>
+</li>

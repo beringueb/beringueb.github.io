@@ -39,15 +39,22 @@
   </div>
 
   <h2>Same train, again</h2>
-  <p>Units I have ridden more than once, out of {{ $t.units }} different ones.</p>
+  {{ $top := 0 }}{{ range $d.repeat_units }}{{ $top = math.Max $top .times }}{{ end }}
+  <p>I have ridden {{ $t.repeat_units }} of the {{ $t.units }} units I noted more than once. These are the ones I have ridden most, {{ $top }} times each:</p>
   <table class="trains-table">
     <thead><tr><th>Unit</th><th>Type</th><th>Operator</th><th>Times</th><th>First – last</th></tr></thead>
     <tbody>
-    {{ range $d.repeat_units }}
+    {{ range where $d.repeat_units "times" $top }}
       <tr><td><strong>{{ .unit }}</strong></td><td>{{ .type }}</td><td>{{ .operator }}</td><td>{{ .times }}</td><td>{{ .first }}{{ if ne .first .last }} – {{ .last }}{{ end }}</td></tr>
     {{ end }}
     </tbody>
   </table>
+
+  <h2>Most taken routes</h2>
+  <figure class="trains-map-wrap">
+    {{ with resources.Get "images/trains_map.svg" }}{{ .Content | safeHTML }}{{ end }}
+    <figcaption>Every route I have taken, darker and thicker the more often. Stations in the same city are merged; arcs join the two ends and do not follow the tracks. Hover a route for details.</figcaption>
+  </figure>
 
   <h2>Records</h2>
   <table class="trains-table">
@@ -59,9 +66,8 @@
   </table>
 
   <p class="muted trains-notes">
-    {{ $t.delayed_share }}% of trips ({{ $t.delayed_trips }}) arrived late, about {{ $t.delay_hours }} hours in total.
     {{ with $t.untimed_trips }}{{ . }} trips have no recorded duration and are left out of time and speed figures.{{ end }}
-    Distances are as given by the operators or route maps; delays are my own rough estimates.
+    Distances are given by <a href="https://signal.eu.org/osm/#locs=48.882554,2.355967;50.942583,6.959238">Railway routing</a>.
   </p>
 </div>
 {{ end }}

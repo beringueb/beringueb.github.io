@@ -3,12 +3,13 @@
 Usage:
     python3 scripts/trains_import.py ~/Downloads/"Rail travels - Feuille 1.csv"
 
-Reads the CSV export (File > Download > CSV) and writes data/trains.json.
+Reads the CSV export (File > Download > CSV) and writes data/trains.json and the
+route map assets/images/trains_map.svg (see trains_map.py).
 Only totals, rankings and month-level records are written: the raw log with exact
 dates and times never enters the (public) repository. Standard library only.
 
 Expected columns: date (dd/mm/yy), HEURE, TYPE/COMPAGNIE, RAME, PARCOURS ("A - B"),
-KM, TEMPS (hh:mm), COMMENTAIRES ("Retard ~10min", "Retard ~1h20").
+KM, TEMPS (hh:mm), COMMENTAIRES.
 """
 import csv
 import json
@@ -17,6 +18,8 @@ import sys
 from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
+
+import trains_map
 
 OUT = Path(__file__).resolve().parent.parent / "data" / "trains.json"
 
@@ -104,15 +107,6 @@ def minutes(hhmm):
     return int(m.group(1)) * 60 + int(m.group(2)) if m else None
 
 
-def delay_minutes(comment):
-    m = re.search(r"Retard\s*~\s*(?:(\d+)\s*h\s*(\d+)?|(\d+)\s*min)", comment or "", re.I)
-    if not m:
-        return None
-    if m.group(3):
-        return int(m.group(3))
-    return int(m.group(1)) * 60 + int(m.group(2) or 0)
-
-
 def fmt_duration(mins):
     return f"{mins // 60}h{mins % 60:02d}"
 
@@ -142,15 +136,14 @@ def read_trips(path):
             "to": station(b),
             "km": int(r[5]) if r[5].strip() else 0,
             "minutes": minutes(r[6]),
-            "delay": delay_minutes(r[7] if len(r) > 7 else ""),
         })
     return trips
 
 
-def ranking(counter_trips, counter_km=None, top=10):
+def ranking(counter_trips, counter_km=None):
     items = counter_trips.most_common()
     out = [{"name": k, "trips": v, **({"km": counter_km[k]} if counter_km else {})} for k, v in items]
-    return out[:top]
+    return out
 
 
 def main(path):
@@ -160,7 +153,6 @@ def main(path):
     km = sum(t["km"] for t in trips)
     timed = [t for t in trips if t["minutes"]]
     mins = sum(t["minutes"] for t in timed)
-    delayed = [t for t in trips if t["delay"]]
 
     # rankings
     op_trips, op_km = Counter(), Counter()
@@ -208,7 +200,6 @@ def main(path):
     fast_pool = [t for t in timed if t["km"] >= 100]
     fastest = max(fast_pool, key=lambda t: t["km"] / t["minutes"])
     shortest = min(trips, key=lambda t: t["km"])
-    worst = max(delayed, key=lambda t: t["delay"]) if delayed else None
     months = Counter()
     for t in trips:
         months[(t["date"].year, t["date"].month)] += t["km"]
@@ -220,8 +211,6 @@ def main(path):
         {"label": "Fastest trip (average)", **trip_desc(fastest, f"{fastest['km'] / fastest['minutes'] * 60:.0f} km/h")},
         {"label": "Shortest trip", **trip_desc(shortest, f"{shortest['km']} km")},
     ]
-    if worst:
-        records.append({"label": "Biggest delay", **trip_desc(worst, f"~{fmt_duration(worst['delay'])}")})
     records.append({"label": "Busiest month", "route": "", "value": f"{bkm:,} km",
                     "when": f"{MONTHS[bm - 1]} {by}", "operator": ""})
 
@@ -238,20 +227,18 @@ def main(path):
             "operators": len(op_trips),
             "units": len(unit_rides),
             "repeat_units": len(repeats),
-            "delayed_trips": len(delayed),
-            "delayed_share": round(100 * len(delayed) / n),
-            "delay_hours": round(sum(t["delay"] for t in delayed) / 60, 1),
             "untimed_trips": n - len(timed),
         },
         "by_year": by_year,
         "operators": ranking(op_trips, op_km),
         "types": ranking(type_trips, type_km),
-        "stations": ranking(visits, top=10),
-        "routes": ranking(routes, top=5),
+        "stations": ranking(visits),
+        "routes": ranking(routes),
         "repeat_units": repeats,
         "records": records,
     }
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    trains_map.write_svg(trips)
     print(f"{n} trips, {km:,} km, {len(repeats)} units ridden more than once -> {OUT}")
 
 
